@@ -1,0 +1,36 @@
+.features{
+    // text-align: center;
+    background: var(--lightGray);
+    padding-top: 5em;
+    &__grid{
+        display: grid;
+        grid-row-gap: 2em;
+    }
+    &__title{
+        text-align: center;
+        color: var(--darkBlue);
+    }
+    &__item{
+    //    border: .1em solid green; 
+       background: white;
+       border-radius: .3em;
+       padding: 1em 1em 1em 1em;
+    }
+    &__a{
+        align-self: start;
+        color: #00d2b5;
+        font-size: 14px;
+    }
+
+}
+.iconCircle{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50em;
+    background-color: #00d2b5;
+    margin-bottom: .9em;
+    align-items: center;
+}
+.copy {
+    margin-bottom: 2em;
+}

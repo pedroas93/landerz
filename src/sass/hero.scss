@@ -1,0 +1,16 @@
+.hero {
+    // border: 2px solid red;
+    text-align: left;
+    padding-bottom: 5em;
+    .copy {
+        margin-bottom: 1em;
+    }
+    &__image {
+        // border: 1px solid red;
+        height: 300px;
+        margin: 0 calc(-1 * var(--wrapperSpace));
+        background: url('../images/landing_1.png') center no-repeat;
+        background-size: 320px;
+        margin-bottom: 1.2em;
+    }
+}
