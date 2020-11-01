@@ -1,0 +1,28 @@
+.aboutUs{
+    background: var(--lightGray);
+    padding-top: 5em;
+    &__title{
+        text-align: center;
+        color: var(--darkBlue);
+    }
+    &__subTitle{
+        color: var(--darkBlue);
+        font-weight: 340;
+    }
+    &__copy{
+        line-height: 1.7;
+        text-align: left;
+        font-size: 0.6em;
+    }
+    &__button {
+        align-items: center;
+        border: 1px ;
+        padding: .4em 2em;
+        font-size: 1.1em;
+        border-radius: 2em;
+        color: #ffffff;
+        background-color: #00d2b5;
+        margin-top: 2.8em;
+        box-shadow: 1px 2px 5px 1px #ccf5ee;
+    }
+}

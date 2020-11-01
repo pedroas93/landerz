@@ -12,6 +12,7 @@
     }
     &__item{
     //    border: .1em solid green; 
+       height: 15em;
        background: white;
        border-radius: .3em;
        padding: 1em 1em 1em 1em;
@@ -28,8 +29,10 @@
     height: 2.5em;
     border-radius: 50em;
     background-color: #00d2b5;
-    margin-bottom: .9em;
+    margin-bottom: 1.2em;
+    margin-top: 1em;
     align-items: center;
+    box-shadow: 1px 3px 5px 1px #ccf5ee;
 }
 .copy {
     margin-bottom: 2em;
