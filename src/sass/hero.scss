@@ -13,4 +13,45 @@
         background-size: 320px;
         margin-bottom: 1.2em;
     }
+    @media screen and (min-width: 768px){
+        text-align: left;
+        background: url('../images/landing_1.png') right  -75px top 40px no-repeat;
+        background-size: 550px;
+        &__content{
+            // border: 1px solid red;
+            display: grid;
+            align-items: center ;
+            grid-template-areas: "description image" ;
+            grid-template-columns: 1fr 1fr;
+            min-height: 400px;
+            max-width: 968px;
+        }
+        &__description{
+            // border: 1px solid blue;
+            width: 300px;
+        }
+        &__image{
+            // border: 1px solid green;
+            grid-area: image;
+            min-height: inherit;
+            margin-top: 100px;
+            // padding-top: 70px;
+            margin-left: 70px;
+            background: none;
+            // background: url('../images/landing_1.png') no-repeat;
+            // width: 100px;
+            // padding-left: 900px;
+            // width: 600px;
+        }
+    }
+    @media screen and (min-width: 1024px){
+        text-align: left;
+        background: url('../images/landing_1.png') right  -75px top 40px no-repeat;
+        background-size: 750px;
+    }
+    @media screen and (min-width: 1250px){
+        text-align: left;
+        background: url('../images/landing_1.png') right  -55px top 40px no-repeat;
+        background-size: 850px;
+    }
 }

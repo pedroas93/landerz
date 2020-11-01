@@ -5,6 +5,13 @@
         text-align: center;
         color: var(--darkBlue);
     }
+    &__image{
+        height: 300px;
+        margin: 0 calc(-1 * var(--wrapperSpace));
+        background: url('../images/about_1.jpg') center no-repeat;
+        background-size: 320px;
+        margin-bottom: 1.2em;
+    }
     &__subTitle{
         color: var(--darkBlue);
         font-weight: 340;
