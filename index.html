@@ -11,8 +11,34 @@
 
 <body>
     <header class="header">
-        <img class="image" src="./static/images/logo.png" alt="" />
-        <nav class="menu"></nav>
+        <div class="wrapper">
+            <div class="header__content">
+                <img class="image" src="./static/images/logo.png" alt="" />
+                <input type="checkbox" id="menu" class="menu__checkbox">
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">Features</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">About Us</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">Testimonials</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">Blogs</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+                <button class="button">request invite</button>
+                <label for="menu" class="menu__button"></label>
+            </div>
+        </div>
     </header>
     <section class="hero">
         <div class="wrapper">
@@ -131,9 +157,11 @@
                 <!-- <img height="220" class="aboutUs__image" src="./static/images/about_1.jpg" alt=""> -->
                 <div class="aboutUs__contentDescription">
                     <h1 class="aboutUs__subTitle">Create interactive prototypes</h1>
-                    <p class="aboutUs__copy">Eos cumque optio dolores excepturi rerum temporibus magni recusandae eveniet, totam
+                    <p class="aboutUs__copy">Eos cumque optio dolores excepturi rerum temporibus magni recusandae
+                        eveniet, totam
                         omnis
-                        consectetur maxime quibusdam expedita dolorem dolor nobis dicta labore quaerat esse magnam unde, aperiam
+                        consectetur maxime quibusdam expedita dolorem dolor nobis dicta labore quaerat esse magnam unde,
+                        aperiam
                         delectus! At maiores, itaque.</p>
                     <button class="aboutUs__button">Learn More</button>
                 </div>
@@ -172,7 +200,7 @@
                     <input type="text" class="touch__input">
                     <h1 class="title__h3">Message</h1>
                     <div class="title__h3">
-                        <textarea placeholder="write your notes or questions here... " cols="6" rows="6" type="text"
+                        <textarea placeholder=" write your notes or questions here... " cols="6" rows="6" type="text"
                             class="touch__textarea"></textarea>
                     </div>
                     <button class="touch__button">Send Message</button>
@@ -181,7 +209,7 @@
         </div>
     </section>
     <footer class="footer">
-        copyright © 2019 all rights reserved
+        copyright ©2019 all rights reserved
     </footer>
 </body>
 

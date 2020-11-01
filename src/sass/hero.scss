@@ -2,6 +2,7 @@
     // border: 2px solid red;
     text-align: left;
     padding-bottom: 5em;
+    padding-top: 5em;
     .copy {
         margin-bottom: 1em;
     }
@@ -46,12 +47,12 @@
     }
     @media screen and (min-width: 1024px){
         text-align: left;
-        background: url('../images/landing_1.png') right  -75px top 40px no-repeat;
+        background: url('../images/landing_1.png') right  -115px top 140px no-repeat;
         background-size: 750px;
     }
     @media screen and (min-width: 1250px){
         text-align: left;
-        background: url('../images/landing_1.png') right  -55px top 40px no-repeat;
-        background-size: 850px;
+        background: url('../images/landing_1.png') right  -110px top 150px no-repeat;
+        background-size: 750px;
     }
 }
