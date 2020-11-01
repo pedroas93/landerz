@@ -222,6 +222,7 @@
 .aboutUs {
   background: var(--lightGray);
   padding-top: 5em;
+  padding-bottom: 5em;
 }
 .aboutUs__title {
   text-align: center;
@@ -254,9 +255,49 @@
   margin-top: 2.8em;
   box-shadow: 1px 2px 5px 1px #ccf5ee;
 }
+@media screen and (min-width: 768px) {
+  .aboutUs {
+    padding-top: 5px;
+    text-align: left;
+    background: url("../images/about_1.jpg") left -130px top 40px var(--lightGray) no-repeat;
+    background-size: 550px;
+  }
+  .aboutUs__content {
+    display: grid;
+    align-items: center;
+    grid-template-areas: "image description" "image     contentDescription";
+    grid-template-columns: 2fr 2fr;
+    min-height: 400px;
+    max-width: 968px;
+  }
+  .aboutUs__description {
+    width: 300px;
+    margin-top: 90px;
+  }
+  .aboutUs__image {
+    grid-area: image;
+    min-height: inherit;
+    margin-left: 90px;
+    background: none;
+    padding-left: 10px;
+    width: 300px;
+  }
+  .aboutUs__item {
+    border: 0.1em solid var(--lightGray);
+    border-radius: 0.2em;
+    padding: 1em 1em 1em 1em;
+    box-shadow: 6px 6px 10px 1px var(--lightGray);
+    width: 300px;
+  }
+  .aboutUs__paragraph {
+    color: var(--darkBlue);
+    font-weight: 320;
+  }
+}
 
 .testimonials {
   padding-top: 5em;
+  padding-bottom: 5em;
   align-items: center;
   text-align: center;
   /* The dots/bullets/indicators */
@@ -337,6 +378,22 @@
   color: var(--darkBlue);
 }
 .touch__betweenTextArea {
+  text-align: center;
+}
+.touch__wrapper {
+  padding: 0 4em;
+  align-items: left;
+}
+@media screen and (min-width: 768px) {
+  .touch__wrapper {
+    padding: 0 8em;
+    align-items: left;
+  }
+}
+
+.footer {
+  padding-top: 5em;
+  padding-bottom: 2em;
   text-align: center;
 }
 

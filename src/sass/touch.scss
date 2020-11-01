@@ -43,4 +43,14 @@
     &__betweenTextArea{
         text-align: center;
     }
+    &__wrapper{
+        padding: 0 4em;
+        align-items: left ;
+    }
+    @media screen and (min-width: 768px){
+        &__wrapper{
+            padding: 0 8em;
+            align-items: left ;
+        }
+    }
 }
