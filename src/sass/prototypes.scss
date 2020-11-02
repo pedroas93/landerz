@@ -51,7 +51,7 @@
     @media screen and (min-width: 768px){
         padding-top: 5px;
         text-align: left;
-        background: url('../images/do_ui_kit_download_cta_floating_devices-2x.png') left  -40px top 150px no-repeat;
+        background: url('../images/do_ui_kit_download_cta_floating_devices-2x.png') left  -40px top 120px no-repeat;
         background-size: 550px;
         &__content{
             // border: 1px solid red;
@@ -83,6 +83,9 @@
             padding-left: 10px;
             width: 300px;
         }
+        &__contentDescription{
+            width: 400px;
+        }
         &__item{
             border: .1em solid var(--lightGray); 
             background: white;
@@ -94,6 +97,42 @@
         &__paragraph{
             color: var(--darkBlue);
             font-weight: 320;
+        }
+    }
+    @media screen and (min-width: 1024px){
+        padding-top: 5px;
+        text-align: left;
+        background: url('../images/do_ui_kit_download_cta_floating_devices-2x.png') left  20px top 80px no-repeat;
+        background-size: 550px;
+        &__content{
+            // border: 1px solid red;
+            margin-left: 10em;
+            display: grid;
+            align-items: center ;
+            grid-template-areas: 
+                    "image description" 
+                    "image     contentDescription";
+            grid-template-columns: 1fr 1fr;
+            min-height: 400px;
+            max-width: 1250px;
+        }
+    }
+    @media screen and (min-width: 1275px){
+        padding-top: 5px;
+        text-align: left;
+        background: url('../images/do_ui_kit_download_cta_floating_devices-2x.png') left  220px top 80px no-repeat;
+        background-size: 550px;
+        &__content{
+            // border: 1px solid red;
+            margin-left: 10em;
+            display: grid;
+            align-items: center ;
+            grid-template-areas: 
+                    "image description" 
+                    "image     contentDescription";
+            grid-template-columns: 1fr 1fr;
+            min-height: 400px;
+            max-width: 1250px;
         }
     }
 }

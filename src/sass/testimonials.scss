@@ -16,6 +16,30 @@
         text-align: center;
         color: var(--darkBlue);
     }
+    &__copy{ 
+        line-height: 1.7;
+        text-align: left;
+        font-size: .9em;
+        // border: 1px solid red;
+    }
+    &__wrapper{
+        padding: 0 4em;
+        align-items: left ;
+    }
+    @media screen and (max-width: 625px){
+        &__copy{ 
+            line-height: 1.7;
+            text-align: left;
+            font-size: .7em;
+        }
+    }
+    @media screen and (max-width: 512px){
+        &__copy{ 
+            line-height: 1.7;
+            text-align: left;
+            font-size: .4em;
+        }
+    }
     /* The dots/bullets/indicators */
     .dot {
         cursor: pointer;
@@ -39,4 +63,10 @@
         animation-name: fade;
         animation-duration: 1.5s;
     }
+    
+}
+.slider {
+    width: 100%;
+    padding-bottom: 35px;
+    text-align: center;
 }

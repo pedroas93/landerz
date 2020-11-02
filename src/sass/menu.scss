@@ -22,9 +22,7 @@
     &__checkbox {
       display: none;
       &:checked {
-        & ~ .menu__button {
-          background: url('../images/icon-close.svg') no-repeat center;
-        }
+
         & ~ .menu {
           display: block;
           position: absolute;
@@ -46,7 +44,7 @@
           }
           a {
             background: white;
-            padding: .8em 1em;
+            padding: .5em 1em;
             color: var(--darkBlue);
             font-size: 1.1em;
             display: block;

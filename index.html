@@ -7,11 +7,12 @@
     <title>Landerz</title>
     <link rel="stylesheet" href="static/css/estilos.css">
     <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href= "static/fonts/icomoon/style.css">
 </head>
 
 <body>
     <header class="header">
-        <div class="wrapper">
+        <div class="header__wrapper">
             <div class="header__content">
                 <img class="image" src="./static/images/logo.png" alt="" />
                 <input type="checkbox" id="menu" class="menu__checkbox">
@@ -149,12 +150,11 @@
     </section>
     <section class="aboutUs">
         <div class="wrapper">
+            <div class="">
+                <h1 class="aboutUs__title">About Us</h1>
+            </div>
             <div class="aboutUs__content">
-                <div class="aboutUs__description">
-                    <h1 class="aboutUs__title">About Us</h1>
-                </div>
                 <div class="aboutUs__image"></div>
-                <!-- <img height="220" class="aboutUs__image" src="./static/images/about_1.jpg" alt=""> -->
                 <div class="aboutUs__contentDescription">
                     <h1 class="aboutUs__subTitle">Create interactive prototypes</h1>
                     <p class="aboutUs__copy">Eos cumque optio dolores excepturi rerum temporibus magni recusandae
@@ -169,20 +169,31 @@
         </div>
     </section>
     <section class="testimonials ">
-        <div class="wrapper">
-            <h1 class="testimonials__title">Testimonials</h1>
-            <img height="220" class="testimonials__imgCircle" src="./static/images/person_3.jpg" alt="">
-            <p class="copy">"Lorem ipsum dolor sit amet cansectetur adipsisicing elit. Consectetur unde reprehenderit
-                aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt
-                consequatur. Amet dolores excepturi earum unde iusto."</p>
-            <span>John Smith</span>
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
+        <div class="testimonials__wrapper">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <h1 class="testimonials__title">Testimonials</h1>
+
+                </div>
+
+                <div class="">
+                    <img height="220" class="testimonials__imgCircle" src="./static/images/person_3.jpg" alt="">
+                    <div class="testimonials__padding">
+                        <div id="myslider" class="slider testimonials__copy"></div>
+                        <div id="nameUser" class="slider"></div>
+                    </div>
+                    <div style="text-align:center">
+                        <span class="dot" ></span>
+                        <span class="dot" ></span>
+                        <span class="dot" ></span>
+                        <span class="dot" ></span>
+                    </div>
+                </div>
+                <script src="https://rawgit.com/ruyadorno/simple-slider/master/dist/simpleslider.min.js"></script>
+
+
             </div>
-        </div>
     </section>
     <section class="touch">
         <div class="touch__wrapper">
@@ -211,6 +222,10 @@
     <footer class="footer">
         copyright ©2019 all rights reserved
     </footer>
+    <!--Javascript-->
+    <script src="src/utils/getUser.js"></script>
+    <script src="src/utils/getPost.js"></script>
+    <script src="src/utils/carousel.js"></script>
 </body>
 
 </html>
