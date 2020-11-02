@@ -213,12 +213,20 @@
   background-color: #00d2b5;
   margin-bottom: 1.2em;
   margin-top: 1em;
-  align-items: center;
+  text-align: center;
   box-shadow: 1px 3px 5px 1px #ccf5ee;
 }
 
 .copy {
   margin-bottom: 2em;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("fontawesome-webfont.woff");
+}
+p {
+  font-size: 200%;
 }
 
 .prototypes {
@@ -311,6 +319,7 @@
   .prototypes__paragraph {
     color: var(--darkBlue);
     font-weight: 320;
+    margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -661,6 +670,16 @@ body {
   background-color: #00d2b5;
   margin-top: 2.8em;
   box-shadow: 1px 2px 5px 1px #00d2b5;
+}
+
+.icons {
+  width: 20px;
+  margin-top: 10px;
+}
+
+.iconsCheck {
+  width: 12px;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

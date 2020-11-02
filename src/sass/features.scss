@@ -50,9 +50,18 @@
     background-color: #00d2b5;
     margin-bottom: 1.2em;
     margin-top: 1em;
-    align-items: center;
+    text-align: center;
     box-shadow: 1px 3px 5px 1px #ccf5ee;
 }
 .copy {
     margin-bottom: 2em;
 }
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url("fontawesome-webfont.woff");
+  }
+  
+  p {
+    font-size: 200%;
+  }
