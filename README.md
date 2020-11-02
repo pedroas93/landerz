@@ -1,0 +1,1 @@
+This is a page landing for landerz with Vanilla Javascript css and html
