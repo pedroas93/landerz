@@ -58,6 +58,13 @@
     padding: 0 3em;
     align-items: left;
   }
+  .hero__image {
+    height: 300px;
+    margin: 0 calc(-1 * 3em);
+    background: url("../images/landing_1.png") center no-repeat;
+    background-size: 320px;
+    margin-bottom: 1.2em;
+  }
 }
 @media screen and (min-width: 768px) {
   .hero {
@@ -293,6 +300,13 @@ p {
     padding: 0 3em;
     align-items: left;
   }
+  .prototypes__image {
+    height: 300px;
+    margin: 0 calc(-1 * 3em);
+    background: url("../images/do_ui_kit_download_cta_floating_devices-2x.png") center no-repeat;
+    background-size: 320px;
+    margin-bottom: 1.2em;
+  }
 }
 @media screen and (min-width: 768px) {
   .prototypes {
@@ -443,6 +457,13 @@ p {
   .aboutUs__wrapper {
     padding: 0 3em;
     align-items: left;
+  }
+  .aboutUs__image {
+    height: 300px;
+    margin: 0 calc(-1 * 3em);
+    background: url("../images/about_1.jpg") center no-repeat;
+    background-size: 320px;
+    margin-bottom: 1.2em;
   }
 }
 @media screen and (min-width: 768px) {
