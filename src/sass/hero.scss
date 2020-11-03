@@ -14,6 +14,16 @@
         background-size: 320px;
         margin-bottom: 1.2em;
     }
+    &__wrapper{
+        padding: 0 var(--wrapperSpace);
+        align-items: left ;
+    }
+    @media screen and (max-width: 468px){
+        &__wrapper{
+            padding: 0 3em;
+            align-items: left ; 
+        }
+    }
     @media screen and (min-width: 768px){
         text-align: left;
         background: url('../images/landing_1.png') right  -95px top 90px no-repeat;

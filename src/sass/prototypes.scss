@@ -44,6 +44,16 @@
         font-weight: 100;
         font-size: 1em;
     }
+    &__wrapper{
+        padding: 0 var(--wrapperSpace);
+        align-items: left ;
+    }
+    @media screen and (max-width: 468px){
+        &__wrapper{
+            padding: 0 3em;
+            align-items: left ; 
+        }
+    }
     @media screen and (min-width: 768px){
         padding-top: 5px;
         text-align: left;
@@ -98,6 +108,10 @@
         &__gridImg{
             display: grid;
             // grid-template-columns: 15% 85%;
+        }
+        &__wrapper{
+            padding: 0 4em;
+            align-items: left ; 
         }
     }
     @media screen and (min-width: 1024px){

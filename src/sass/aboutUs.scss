@@ -35,6 +35,16 @@
         margin-top: 2.8em;
         box-shadow: 1px 2px 5px 1px #ccf5ee;
     }
+    &__wrapper{
+        padding: 0 var(--wrapperSpace);
+        align-items: left ;
+    }
+    @media screen and (max-width: 468px){
+        &__wrapper{
+            padding: 0 3em;
+            align-items: left ; 
+        }
+    }
     @media screen and (min-width: 768px){
         padding-top: 5px;
         text-align: left;
@@ -90,6 +100,7 @@
             font-weight: 320;
         }
     }
+
     @media screen and (min-width: 1024px){
         padding-top: 5px;
         text-align: left;
