@@ -1,7 +1,7 @@
 const API_POSTS = 'https://jsonplaceholder.typicode.com/posts';
 const API_USERS = 'https://jsonplaceholder.typicode.com/users';
 
-var post = document.getElementById('myslider')
+let post = document.getElementById('myslider')
 let nameUser = document.getElementById("nameUser");
 
 
@@ -19,16 +19,16 @@ const getPosts = async (id) => {
         objectcollectionUser = { ...objectcollectionUser, ...userResponse }
 
         postResponse.forEach(element => {
-            var tag = document.createElement("p");
-            var text = document.createTextNode("\"" + element.title + "\"");
+            let tag = document.createElement("p");
+            let text = document.createTextNode("\"" + element.title + "\"");
             tag.appendChild(text);
             // tag.style.paddingLeft = "1em"
             post.appendChild(tag);
             
             userResponse.forEach(elementUser => {
                 if (element.userId === elementUser.id) {
-                    var tagUser = document.createElement("span");
-                    var textUser = document.createTextNode(elementUser.name);
+                    let tagUser = document.createElement("span");
+                    let textUser = document.createTextNode(elementUser.name);
                     tagUser.appendChild(textUser);
                     // tagUser.style.paddingLeft = "13em"
                     nameUser.appendChild(tagUser);
